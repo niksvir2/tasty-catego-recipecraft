@@ -1,4 +1,3 @@
-
 export interface Recipe {
   id: number;
   title: string;
@@ -25,37 +24,37 @@ export const categories: Category[] = [
     id: 1,
     name: "Закуски",
     description: "Лёгкие блюда для начала трапезы",
-    imageUrl: "/appetizers.jpg",
+    imageUrl: "/images/categories/appetizers.jpg",
   },
   {
     id: 2,
     name: "Супы",
     description: "Горячие и холодные супы на любой вкус",
-    imageUrl: "/soups.jpg",
+    imageUrl: "/images/categories/soups.jpg",
   },
   {
     id: 3,
     name: "Салаты",
     description: "Свежие и сытные салаты из сезонных продуктов",
-    imageUrl: "/salads.jpg",
+    imageUrl: "/images/categories/salads.jpg",
   },
   {
     id: 4,
     name: "Основные блюда",
     description: "Сытные блюда для обеда и ужина",
-    imageUrl: "/main-courses.jpg",
+    imageUrl: "/images/categories/main-courses.jpg",
   },
   {
     id: 5,
     name: "Десерты",
     description: "Сладкие блюда для завершения трапезы",
-    imageUrl: "/desserts.jpg",
+    imageUrl: "/images/categories/desserts.jpg",
   },
   {
     id: 6,
     name: "Напитки",
     description: "Освежающие и согревающие напитки",
-    imageUrl: "/drinks.jpg",
+    imageUrl: "/images/categories/drinks.jpg",
   },
 ];
 
@@ -97,7 +96,7 @@ export const recipes: Recipe[] = [
       "Перед выключением добавьте измельченный чеснок.",
       "Подавайте со сметаной и зеленью."
     ],
-    imageUrl: "/borscht.jpg",
+    imageUrl: "/images/recipes/borscht.jpg",
     featured: true
   },
   {
@@ -133,7 +132,7 @@ export const recipes: Recipe[] = [
       "Натрите свеклу, выложите последним слоем, смажьте майонезом.",
       "Поставьте в холодильник на 2-3 часа."
     ],
-    imageUrl: "/herring-under-fur-coat.jpg"
+    imageUrl: "/images/recipes/herring-under-fur-coat.jpg"
   },
   {
     id: 3,
@@ -162,7 +161,7 @@ export const recipes: Recipe[] = [
       "Выпекайте блины на разогретой сковороде.",
       "Подавайте с икрой и сметаной."
     ],
-    imageUrl: "/blini-with-caviar.jpg",
+    imageUrl: "/images/recipes/blini-with-caviar.jpg",
     featured: true
   },
   {
@@ -191,9 +190,9 @@ export const recipes: Recipe[] = [
       "Смажьте форму маслом, выложите тесто.",
       "Равномерно распределите яблоки по тесту.",
       "Выпекайте 40-45 минут до золотистого цвета.",
-      "Посыпьте сахарной пудрой перед подачей."
+      "Посыпьте сахарной пудраю перед подачей."
     ],
-    imageUrl: "/apple-charlotte.jpg"
+    imageUrl: "/images/recipes/apple-charlotte.jpg"
   },
   {
     id: 5,
@@ -216,7 +215,7 @@ export const recipes: Recipe[] = [
       "Варите пельмени в подсоленной воде 7-8 минут после всплытия.",
       "Подавайте со сметаной, уксусом или маслом."
     ],
-    imageUrl: "/siberian-pelmeni.jpg",
+    imageUrl: "/images/recipes/siberian-pelmeni.jpg",
     featured: true
   },
   {
@@ -241,7 +240,7 @@ export const recipes: Recipe[] = [
       "Процедите отвар, добавьте отжатый сок.",
       "Охладите и подавайте с мёдом по вкусу."
     ],
-    imageUrl: "/cranberry-mors.jpg"
+    imageUrl: "/images/recipes/cranberry-mors.jpg"
   }
 ];
 
