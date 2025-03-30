@@ -1,17 +1,17 @@
 
 /* Убираем placeholder градиенты и используем реальные изображения */
-[src="/borscht.jpg"],
-[src="/herring-under-fur-coat.jpg"],
-[src="/blini-with-caviar.jpg"],
-[src="/apple-charlotte.jpg"],
-[src="/siberian-pelmeni.jpg"],
-[src="/cranberry-mors.jpg"],
-[src="/appetizers.jpg"],
-[src="/soups.jpg"],
-[src="/salads.jpg"],
-[src="/main-courses.jpg"],
-[src="/desserts.jpg"],
-[src="/drinks.jpg"] {
+[src="/images/recipes/borscht.jpg"],
+[src="/images/recipes/herring-under-fur-coat.jpg"],
+[src="/images/recipes/blini-with-caviar.jpg"],
+[src="/images/recipes/apple-charlotte.jpg"],
+[src="/images/recipes/siberian-pelmeni.jpg"],
+[src="/images/recipes/cranberry-mors.jpg"],
+[src="/images/categories/appetizers.jpg"],
+[src="/images/categories/soups.jpg"],
+[src="/images/categories/salads.jpg"],
+[src="/images/categories/main-courses.jpg"],
+[src="/images/categories/desserts.jpg"],
+[src="/images/categories/drinks.jpg"] {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -19,17 +19,17 @@
 }
 
 /* Реальные изображения для категорий */
-[src="/appetizers.jpg"] { background-image: url('/images/categories/appetizers.jpg'); background-size: cover; }
-[src="/soups.jpg"] { background-image: url('/images/categories/soups.jpg'); background-size: cover; }
-[src="/salads.jpg"] { background-image: url('/images/categories/salads.jpg'); background-size: cover; }
-[src="/main-courses.jpg"] { background-image: url('/images/categories/main-courses.jpg'); background-size: cover; }
-[src="/desserts.jpg"] { background-image: url('/images/categories/desserts.jpg'); background-size: cover; }
-[src="/drinks.jpg"] { background-image: url('/images/categories/drinks.jpg'); background-size: cover; }
+[src="/images/categories/appetizers.jpg"] { background-image: url('/images/categories/appetizers.jpg'); background-size: cover; }
+[src="/images/categories/soups.jpg"] { background-image: url('/images/categories/soups.jpg'); background-size: cover; }
+[src="/images/categories/salads.jpg"] { background-image: url('/images/categories/salads.jpg'); background-size: cover; }
+[src="/images/categories/main-courses.jpg"] { background-image: url('/images/categories/main-courses.jpg'); background-size: cover; }
+[src="/images/categories/desserts.jpg"] { background-image: url('/images/categories/desserts.jpg'); background-size: cover; }
+[src="/images/categories/drinks.jpg"] { background-image: url('/images/categories/drinks.jpg'); background-size: cover; }
 
 /* Реальные изображения для рецептов */
-[src="/borscht.jpg"] { background-image: url('/images/recipes/borscht.jpg'); background-size: cover; }
-[src="/herring-under-fur-coat.jpg"] { background-image: url('/images/recipes/herring-under-fur-coat.jpg'); background-size: cover; }
-[src="/blini-with-caviar.jpg"] { background-image: url('/images/recipes/blini-with-caviar.jpg'); background-size: cover; }
-[src="/apple-charlotte.jpg"] { background-image: url('/images/recipes/apple-charlotte.jpg'); background-size: cover; }
-[src="/siberian-pelmeni.jpg"] { background-image: url('/images/recipes/siberian-pelmeni.jpg'); background-size: cover; }
-[src="/cranberry-mors.jpg"] { background-image: url('/images/recipes/cranberry-mors.jpg'); background-size: cover; }
+[src="/images/recipes/borscht.jpg"] { background-image: url('/images/recipes/borscht.jpg'); background-size: cover; }
+[src="/images/recipes/herring-under-fur-coat.jpg"] { background-image: url('/images/recipes/herring-under-fur-coat.jpg'); background-size: cover; }
+[src="/images/recipes/blini-with-caviar.jpg"] { background-image: url('/images/recipes/blini-with-caviar.jpg'); background-size: cover; }
+[src="/images/recipes/apple-charlotte.jpg"] { background-image: url('/images/recipes/apple-charlotte.jpg'); background-size: cover; }
+[src="/images/recipes/siberian-pelmeni.jpg"] { background-image: url('/images/recipes/siberian-pelmeni.jpg'); background-size: cover; }
+[src="/images/recipes/cranberry-mors.jpg"] { background-image: url('/images/recipes/cranberry-mors.jpg'); background-size: cover; }
