@@ -1,7 +1,7 @@
 
 import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/Layout";
-import { getRecipeById, getCategoryById } from "@/data/recipes";
+import { getRecipeById, getCategoryById } from "@/data/utils";
 import { Clock, Users, ChevronLeft } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";

@@ -1,7 +1,7 @@
 
 import Layout from "@/components/Layout";
 import CategoryCard from "@/components/CategoryCard";
-import { categories } from "@/data/recipes";
+import { categories } from "@/data/categories";
 
 const Categories = () => {
   return (

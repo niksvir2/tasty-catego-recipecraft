@@ -6,7 +6,8 @@ import CategoryCard from "@/components/CategoryCard";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { getFeaturedRecipes, categories } from "@/data/recipes";
+import { getFeaturedRecipes } from "@/data/utils";
+import { categories } from "@/data/categories";
 
 const Index = () => {
   const featuredRecipes = getFeaturedRecipes();

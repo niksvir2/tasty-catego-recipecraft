@@ -2,7 +2,7 @@
 import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import RecipeCard from "@/components/RecipeCard";
-import { getRecipesByCategory, getCategoryById } from "@/data/recipes";
+import { getRecipesByCategory, getCategoryById } from "@/data/utils";
 import { ChevronLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 

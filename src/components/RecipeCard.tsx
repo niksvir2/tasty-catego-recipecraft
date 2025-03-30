@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { Clock } from "lucide-react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Recipe } from "@/data/recipes";
+import { Recipe } from "@/data/types";
 
 interface RecipeCardProps {
   recipe: Recipe;
