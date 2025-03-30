@@ -1,0 +1,47 @@
+
+/* Placeholder styles for our recipe images until we have real images */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Creating placeholder gradients for our images */
+[src="/borscht.jpg"],
+[src="/herring-under-fur-coat.jpg"],
+[src="/blini-with-caviar.jpg"],
+[src="/apple-charlotte.jpg"],
+[src="/siberian-pelmeni.jpg"],
+[src="/cranberry-mors.jpg"],
+[src="/appetizers.jpg"],
+[src="/soups.jpg"],
+[src="/salads.jpg"],
+[src="/main-courses.jpg"],
+[src="/desserts.jpg"],
+[src="/drinks.jpg"] {
+  background: linear-gradient(45deg, #f97316, #eab308);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Specific colors for different categories */
+[src="/appetizers.jpg"] { background: linear-gradient(45deg, #fb923c, #fcd34d); }
+[src="/soups.jpg"] { background: linear-gradient(45deg, #fb923c, #a855f7); }
+[src="/salads.jpg"] { background: linear-gradient(45deg, #84cc16, #22c55e); }
+[src="/main-courses.jpg"] { background: linear-gradient(45deg, #ef4444, #f97316); }
+[src="/desserts.jpg"] { background: linear-gradient(45deg, #ec4899, #a855f7); }
+[src="/drinks.jpg"] { background: linear-gradient(45deg, #3b82f6, #06b6d4); }
+
+/* Specific colors for recipes */
+[src="/borscht.jpg"] { background: linear-gradient(45deg, #ef4444, #fb923c); }
+[src="/herring-under-fur-coat.jpg"] { background: linear-gradient(45deg, #a855f7, #ec4899); }
+[src="/blini-with-caviar.jpg"] { background: linear-gradient(45deg, #f97316, #fcd34d); }
+[src="/apple-charlotte.jpg"] { background: linear-gradient(45deg, #f59e0b, #fbbf24); }
+[src="/siberian-pelmeni.jpg"] { background: linear-gradient(45deg, #64748b, #94a3b8); }
+[src="/cranberry-mors.jpg"] { background: linear-gradient(45deg, #ef4444, #f472b6); }
