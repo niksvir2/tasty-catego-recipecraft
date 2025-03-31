@@ -1,4 +1,3 @@
-
 import { Recipe } from "./types";
 
 export const recipes: Recipe[] = [
@@ -36,7 +35,7 @@ export const recipes: Recipe[] = [
       "В конце добавить измельченный чеснок и зелень.",
       "Подавать со сметаной и свежей зеленью."
     ],
-    imageUrl: "/images/recipes/borscht.jpg",
+    imageUrl: "/lovable-uploads/1917356c-9a37-479a-b340-0dac2427c5fb.png",
     featured: true
   },
   {
