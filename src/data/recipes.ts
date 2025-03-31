@@ -1,10 +1,11 @@
+
 import { Recipe } from "./types";
 
 export const recipes: Recipe[] = [
   {
     id: 1,
     title: "Борщ",
-    description: "Традиционный украинский суп со свеклой, капустой и говядиной.",
+    description: "Славянский суп со свеклой, капустой и говядиной.",
     categoryId: 2,
     prepTime: 20,
     cookTime: 90,
@@ -67,7 +68,7 @@ export const recipes: Recipe[] = [
       "Последний слой - натертая свекла, смазать майонезом.",
       "Украсить зеленью и оставить в холодильнике на несколько часов."
     ],
-    imageUrl: "/images/recipes/herring-under-fur-coat.jpg",
+    imageUrl: "/lovable-uploads/6a54f5ca-04ce-4f01-82ca-4af2bfb46a30.png",
     featured: true
   },
   {
@@ -91,7 +92,7 @@ export const recipes: Recipe[] = [
       "Варить в кипящей подсоленной воде 7-10 минут после всплытия.",
       "Подавать со сметаной, уксусом или сливочным маслом."
     ],
-    imageUrl: "/images/recipes/siberian-pelmeni.jpg",
+    imageUrl: "/lovable-uploads/f9d77348-63bf-48a7-850b-83cba3fab592.png",
     featured: true
   },
   {
@@ -121,7 +122,7 @@ export const recipes: Recipe[] = [
       "Выпекать блины на разогретой сковороде с двух сторон.",
       "Подавать с красной икрой и сметаной."
     ],
-    imageUrl: "/images/recipes/blini-with-caviar.jpg"
+    imageUrl: "/lovable-uploads/f14f51b0-46cd-4be4-bcd3-081fcc44e9f8.png"
   },
   {
     id: 5,
@@ -145,7 +146,7 @@ export const recipes: Recipe[] = [
       "Добавить оставшуюся воду и по желанию цедру лимона.",
       "Охладить перед подачей."
     ],
-    imageUrl: "/images/recipes/cranberry-mors.jpg"
+    imageUrl: "/lovable-uploads/371e89f6-44d2-4f5c-9bfd-05cace8f7bef.png"
   },
   {
     id: 6,
@@ -171,6 +172,6 @@ export const recipes: Recipe[] = [
       "Форму для выпечки смазать маслом и выложить яблоки.",
       "Залить тестом и выпекать при 180°C около 40-45 минут до золотистого цвета."
     ],
-    imageUrl: "/images/recipes/apple-charlotte.jpg"
+    imageUrl: "/lovable-uploads/daf734c9-b667-4efb-b408-b8d5717140c0.png"
   }
 ];
