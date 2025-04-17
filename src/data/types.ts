@@ -4,8 +4,8 @@ export interface Recipe {
   title: string;
   description: string;
   categoryId: number;
-  prepTime: number; // in minutes
-  cookTime: number; // in minutes
+  prepTime: number;
+  cookTime: number;
   servings: number;
   ingredients: string[];
   instructions: string[];

@@ -1,7 +1,6 @@
 
 import { Recipe } from "./types";
 import { recipes } from "./recipes";
-import { categories } from "./categories";
 
 export const getFeaturedRecipes = (): Recipe[] => {
   return recipes.filter(recipe => recipe.featured);
